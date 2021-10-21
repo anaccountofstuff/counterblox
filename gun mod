@@ -1,0 +1,9 @@
+for i,v in next, game:GetService("ReplicatedStorage").Weapons:GetChildren() do
+    if v and v:FindFirstChild('Ammo') and v:FindFirstChild('Bullets') and v:FindFirstChild('EquipTime') and v:FindFirstChild('FireRate') and v:FindFirstChild('StoredAmmo') and v:FindFirstChild('Spread') and v:FindFirstChild('Recoil') then
+        v:FindFirstChild('Ammo').Value = 2500
+        v:FindFirstChild('EquipTime').Value = 0.01
+        v:FindFirstChild('StoredAmmo').Value = 2500
+        v:FindFirstChild('Spread').Value = 0.01
+        v:FindFirstChild('Recoil').Value = 0.01
+    end
+end
