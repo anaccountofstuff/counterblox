@@ -142,7 +142,8 @@ function library:New(name)
 	Menu.Position = UDIM2(0.5, -300, 0.5, -300) 
 	Menu.Size = UDIM2(0, 600, 0, 625) 
 	Menu.Image = "http://www.roblox.com/asset/?id=3967030494" 
-	Menu.BorderSizePixel = 0
+	Menu.BorderSizePixel = 0 
+
 	library.uiopen = true 
 
 	game:GetService("UserInputService").InputBegan:Connect(function(key) 
@@ -5515,9 +5516,9 @@ TextLabel_8.TextSize = 14.000
 TextLabel_8.TextStrokeTransparency = 0.000
 
 Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(97, 59, 227)
+Frame_2.BackgroundColor3 = Color3.fromRGB(29, 143, 107)
 Frame_2.BackgroundTransparency = 0.100
-Frame_2.BorderColor3 = Color3.fromRGB(97, 59, 227)
+Frame_2.BorderColor3 = Color3.fromRGB(29, 143, 107)
 Frame_2.Size = UDim2.new(0, 368, 0, 0)
 
 -- Scripts:
