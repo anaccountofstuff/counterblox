@@ -5622,7 +5622,7 @@ Spectators.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
 Spectators.BackgroundTransparency = 1.000
 Spectators.BorderColor3 = Color3.fromRGB(20, 20, 20)
 Spectators.Position = UDim2.new(0.00800000038, 0, 0.400000006, 49)
-Spectators.Size = UDim2.new(0, 200, 0, 20)
+Spectators.Size = UDim2.new(0, 155, 0, 24)
 
 Container.Name = "Container"
 Container.Parent = Spectators
